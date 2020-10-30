@@ -3,7 +3,7 @@ import GridContainer from './components/GridContainer';
 import TileContainer from './components/TileContainer';
 import GameManager from './GameManager';
 
-require('../assets/main.scss');
+import './assets/main.scss';
 
 export default class App extends Component {
   constructor(props) {
