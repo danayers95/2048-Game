@@ -14,6 +14,7 @@ export default class App extends Component {
     };
   }
 
+
   onLeft() {
     var manager = this.state.manager;
     manager.move(3);
@@ -51,6 +52,7 @@ export default class App extends Component {
       <div className='game-container'>
         <GridContainer />
         <TileContainer board={this.state.manager.grid} />
+        <h1></h1>
         <div style={{position: 'absolute', left: '50%', transform: 'translateX(-50%)', bottom: -30}}>
           <button onClick={this.onLeft.bind(this)}>
             LEFT
